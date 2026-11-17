@@ -13,7 +13,7 @@ jobs:
       - name: Descargar codigo
         uses: actions/checkout@v4
       - name: Configurar PHP
-        uses: shivammatur/setup-php@v2
+        uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
           coverage: none
